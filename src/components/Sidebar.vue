@@ -2,7 +2,7 @@
     <v-app>
       <v-navigation-drawer app v-model="drawer">
         <v-list>
-          <v-list-item to="/user-management">
+          <v-list-item to="/user_management">
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
@@ -10,7 +10,7 @@
               <v-list-item-title>User Management</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item to="/branch-management">
+          <v-list-item href="/user_manage">
             <v-list-item-icon>
               <v-icon>mdi-domain</v-icon>
             </v-list-item-icon>

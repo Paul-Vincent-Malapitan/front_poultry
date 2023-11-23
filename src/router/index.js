@@ -13,7 +13,6 @@ const routes = [
     name: 'AdDash',
     component: AdDash
   },
-  
 
 ]
 
